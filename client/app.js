@@ -3,7 +3,7 @@ let gameId;
 let playerColor;
 let board;
 
-const socket = io('https://chess-project-zzsb.onrender.com', {
+const socket = io('https://chess-khel-3.onrender.com', {
   withCredentials: true,
   extraHeaders: {
     "my-custom-header": "abcd"
